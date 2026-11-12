@@ -1,0 +1,20 @@
+# Secrets - never commit these
+.env
+secrets.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.agent_env/
+
+# Build output and editor files
+build/
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+
+# Personal Claude Code settings
+.claude/settings.local.json
